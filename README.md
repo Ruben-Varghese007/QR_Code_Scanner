@@ -6,9 +6,9 @@ The application will continuously display the status of the scanned QR code as e
 
 ## Run the OpenCV application:
 python QRCodeProject.py
-## OR
-standard F5 or Run program
+OR
+> standard F5 or Run program
 
 ## Run the Streamlit application:
-streamlit run app.py
+> streamlit run app.py
 
