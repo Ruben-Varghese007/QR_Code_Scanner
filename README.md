@@ -5,8 +5,8 @@ The application reads QR codes through your webcam and checks if the decoded dat
 The application will continuously display the status of the scanned QR code as either "Authorized" or "Un-Authorized" based on the data.
 
 ## Run the OpenCV application:
-python QRCodeProject.py
-OR
+>python QRCodeProject.py
+### OR
 > standard F5 or Run program
 
 ## Run the Streamlit application:
