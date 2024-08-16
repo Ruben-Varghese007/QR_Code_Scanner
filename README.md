@@ -12,3 +12,23 @@ The application will continuously display the status of the scanned QR code as e
 ## Run the Streamlit application:
 > streamlit run app.py
 
+## Features
+- Real-time QR Code Scanning: The application captures video feed from your webcam and scans QR codes in real-time.
+- Data Authorization Check: The application compares the scanned QR code data with a list of authorized entries.
+- Continuous Status Display: The status of the scanned QR code (Authorized/Un-Authorized) is displayed continuously as long as the QR code is in view.
+
+## Requirements
+- Python 3.6+
+- Streamlit
+- OpenCV
+- Pyzbar
+- NumPy
+- Installation
+
+## Install the required packages:
+
+> pip install streamlit opencv-python-headless numpy pyzbar
+
+### Prepare your authorized data file:
+
+Create a text file named myDataFile.text in the project directory(already available). Add or Edit each authorized QR code data entry on a new line.
